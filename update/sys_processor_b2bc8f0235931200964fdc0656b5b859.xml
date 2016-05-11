@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description/>
+        <interactive>false</interactive>
+        <name>test_563</name>
+        <parameters/>
+        <params_endpoint/>
+        <path/>
+        <path_endpoint/>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[(function process(g_request, g_response, g_processor) {
+
+	// Add your code here
+
+})(g_request, g_response, g_processor);]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2016-05-11 23:06:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b2bc8f0235931200964fdc0656b5b859</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_563</sys_name>
+        <sys_package display_value="YANSNEW APP" source="x_yansnew_app">d0820fce35531200964fdc0656b5b820</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="YANSNEW APP">d0820fce35531200964fdc0656b5b820</sys_scope>
+        <sys_update_name>sys_processor_b2bc8f0235931200964fdc0656b5b859</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2016-05-11 23:06:47</sys_updated_on>
+        <type>java</type>
+    </sys_processor>
+</record_update>
